@@ -2,7 +2,7 @@
     <x-slot:title>Inicio - Biblio</x-slot>
 
     @guest
-        <div class="hero min-h-[60vh] bg-base-200 rounded-2xl shadow-inner mt-4">
+        <div class="hero min-h-[80vh] bg-base-200 rounded-2xl shadow-inner mt-4">
             <div class="hero-content text-center">
                 <div class="max-w-md">
                     <h1 class="text-5xl font-bold font-serif italic">Bienvenida a <span class="text-primary">Biblio</span></h1>
