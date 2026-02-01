@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"data-theme="cupcake">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +9,14 @@
     @vite(["resources/css/app.css", "resources/js/app.js"])
 
 </head>
-<body>
+<body class="flex flex-col min-h-screen">
 <x-layouts.header />
 <x-layouts.nav />
-<main class="h-main bg-main">
-    {{ $slot  }}
+
+<main class="flex-grow">
+    {{ $slot }}
 </main>
+
 <x-layouts.footer />
 </body>
 </html>

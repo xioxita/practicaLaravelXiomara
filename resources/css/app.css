@@ -1,11 +1,13 @@
 @import "tailwindcss";
-
 @plugin "daisyui";
 
-/* Esto es para que la paginación de Laravel se vea bien con Tailwind */
-@source "../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php";
-@source "../../storage/framework/views/*.php";
-@source "../**/*.blade.php";
-@source "../**/*.js";
+@theme {
+    --color-primary: #5d4037;
+    --color-base-100: #fdfaf3;
+}
 
-
+[data-theme="cupcake"] {
+    --color-primary: #5d4037;
+    --bg-base-100: #fdfaf3;
+    --color-secondary: #8d6e63;
+}
